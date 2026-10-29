@@ -4,107 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Favorite Food Trucks</title>
+    <meta name="description" content="My favorite food trucks in Philadelphia.">
+    <title>My Favorite Philadelphia Food Trucks</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <h1>My Favorite Food Trucks in Philly</h1>
-        <p>Here are three food trucks I would like to try.</p>
+        <h1>My Favorite Philadelphia Food Trucks</h1>
+        <p>Three food trucks I would love to visit in Philadelphia!</p>
     </header>
 
     <main id="main-content">
-        <h2>My Top Three Food Trucks</h2>
+        <section aria-labelledby="favorites-heading">
+            <h2 id="favorites-heading">My Food Truck Favorites</h2>
 
-        <p>
-            Philly has a lot of good food. I picked these three trucks
-            because I like desserts, sushi, and crepes.
-        </p>
+            <div class="table-container">
+                <table>
+                    <caption>
+                        A comparison of my three favorite food trucks
+                    </caption>
 
-        <div class="table-container">
-            <table>
-                <caption>Food Trucks I Like</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Food Truck Name</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Truck Photos</th>
+                            <th scope="col">Type of Food</th>
+                            <th scope="col">Why It's My Favorite</th>
+                        </tr>
+                    </thead>
 
-                <thead>
-                    <tr>
-                        <th scope="col">Food Truck Name</th>
-                        <th scope="col">Truck Location</th>
-                        <th scope="col">Truck Photos</th>
-                        <th scope="col">Food Type</th>
-                        <th scope="col">Why It's My Favorite</th>
-                    </tr>
-                </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Kresha Kreations</th>
+                            <td>Philadelphia, PA</td>
+                            <td>
+                                <img
+                                    src="Kresha%20Kreations.jpg"
+                                    alt="Kresha Kreations food truck"
+                                    loading="lazy"
+                                >
+                                <img
+                                    src="d8f115aa-b187-4e7f-afc2-b3ad6b41e53e%20kresha%20actual%20truck.jpg"
+                                    alt="Another photo of the Kresha Kreations truck"
+                                    loading="lazy"
+                                >
+                            </td>
+                            <td>Cakes, cookies, and cheesecakes</td>
+                            <td>
+                                I enjoy desserts, and this truck is a great
+                                choice for satisfying my sweet tooth.
+                            </td>
+                        </tr>
 
-                <tbody>
-                    <tr>
-                        <th scope="row">Kresha Kreations</th>
+                        <tr>
+                            <th scope="row">Tokio Sushi Truck</th>
+                            <td>Philadelphia, PA</td>
+                            <td>
+                                <img
+                                    src="Tokio%20sushi.jpg"
+                                    alt="Tokio Sushi food truck"
+                                    loading="lazy"
+                                >
+                                <img
+                                    src="images%20tokio%20sushi%20truck.jpg"
+                                    alt="Tokio Sushi truck photo"
+                                    loading="lazy"
+                                >
+                                <img
+                                    src="Screenshot%202026-10-29%20140146%20tokio%20sushi%20menu.png"
+                                    alt="Tokio Sushi menu"
+                                    loading="lazy"
+                                >
+                            </td>
+                            <td>Sushi and Japanese food</td>
+                            <td>
+                                I like sushi, and I would enjoy trying
+                                Japanese food from a food truck.
+                            </td>
+                        </tr>
 
-                        <td>Philadelphia area</td>
-
-                        <td>
-                            <img src="Kresha Kreations.jpg"
-                                 alt="Kresha Kreations dessert business">
-
-                            <img src="d8f115aa-b187-4e7f-afc2-b3ad6b41e53e kresha actual truck.jpg"
-                                 alt="Kresha Kreations actual truck">
-                        </td>
-
-                        <td>Cakes, cookies, and cheesecakes</td>
-
-                        <td>
-                            I like sweets, especially cakes and cookies,
-                            so this one caught my attention.
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">Tokio Sushi Truck</th>
-
-                        <td>Philadelphia area</td>
-
-                        <td>
-                            <img src="Tokio sushi.jpg"
-                                 alt="Tokio Sushi truck">
-
-                            <img src="images tokio sushi truck.jpg"
-                                 alt="Another view of the Tokio Sushi truck">
-
-                            <img src="Screenshot 2026-10-29 140146 tokio sushi menu.png"
-                                 alt="Tokio Sushi menu">
-                        </td>
-
-                        <td>Sushi and Japanese food</td>
-
-                        <td>
-                            I like sushi, and I would be interested in
-                            trying what they have on the menu.
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row">The Crepe Truck Philly</th>
-
-                        <td>Philadelphia area</td>
-
-                        <td>
-                            <img src="temple unvi crepe truck.jpg"
-                                 alt="Crepe truck associated with Temple University">
-                        </td>
-
-                        <td>Sweet and savory crepes</td>
-
-                        <td>
-                            Crepes look good, and I like having different
-                            food options to choose from.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                        <tr>
+                            <th scope="row">The Crepe Truck Philly</th>
+                            <td>Philadelphia, PA</td>
+                            <td>
+                                <img
+                                    src="temple%20unvi%20crepe%20truck.jpg"
+                                    alt="The Crepe Truck Philly"
+                                    loading="lazy"
+                                >
+                            </td>
+                            <td>Sweet and savory crepes</td>
+                            <td>
+                                I like having a choice between sweet
+                                treats and savory food.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>CIS 130 | My Favorite Food Trucks</p>
+        <p>Created for my CIS 130 Week 8 assignment.</p>
     </footer>
 </body>
 </html>
