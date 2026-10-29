@@ -1,0 +1,145 @@
+
+/* Basic page setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF5E6;
+    color: #40291E;
+    line-height: 1.6;
+}
+
+/* Page heading */
+header {
+    background-color: #D9A066;
+    color: #40291E;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    color: #B52B50;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Main content */
+#main-content {
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+/* Table layout */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    background-color: #FFFCF5;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFCF5;
+}
+
+caption {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    color: #B52B50;
+}
+
+th,
+td {
+    border: 1px solid #D9A066;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Table column headings */
+thead {
+    background-color: #B52B50;
+    color: #FFFCF5;
+}
+
+thead th {
+    background-color: #B52B50;
+    color: #FFFCF5;
+}
+
+/* Food truck names */
+tbody th {
+    background-color: #F7E7CE;
+    color: #B52B50;
+}
+
+/* Food truck photos */
+td img {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 0 auto 12px;
+    border-radius: 6px;
+}
+
+/* Bottom of the page */
+footer {
+    background-color: #D9A066;
+    color: #40291E;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Tablet screens */
+@media screen and (max-width: 768px) {
+    #main-content {
+        padding: 0 12px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    td img {
+        max-width: 150px;
+    }
+}
+
+/* Phone screens */
+@media screen and (max-width: 390px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #main-content {
+        padding: 0 8px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        font-size: 0.85rem;
+    }
+
+    td img {
+        max-width: 110px;
+    }
+}
